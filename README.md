@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## SetUp
+
+### `git co -b microsoft-oauth origin/microsoft-oauth`
+
+### `npm install`
+
+### set firebase config
+
+https://github.com/zkohi/firebase-web-samples/blob/microsoft-oauth/src/firebase.ts#L5
+
 ## Available Scripts
 
 In the project directory, you can run:
