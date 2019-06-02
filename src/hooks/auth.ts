@@ -32,6 +32,10 @@ export const isLogin = () => {
         // @ts-ignore
         setUser(user);
         console.log("user.email", user.email);
+        user.getIdTokenResult().then(idTokenResult => {
+          console.log("idTokenResult.claims", idTokenResult.claims);
+          console.log("idTokenResult.claims.admin", idTokenResult.claims.admin);
+        });
       }
       console.log("user", user);
     });
